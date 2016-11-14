@@ -16,7 +16,7 @@ module.exports = {
     extensions: ['.jsx'],
   },
   browserSync: {
-    proxy: 'stats.vagrant',
+    proxy: 'project.vagrant',
     files: [
       dest + '/**'
     ]

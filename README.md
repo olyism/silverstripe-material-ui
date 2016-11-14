@@ -1,14 +1,23 @@
-# [Material-UI](http://callemall.github.io/material-ui/) - Example Project
+SilverStripe + Material UI
+==========================
 
-This is an example project that uses [Material-UI](http://callemall.github.io/material-ui/).
+This is a boilerplate [SilverStripe](http://www.silverstripe.org) theme for projects using [Material-UI](http://callemall.github.io/material-ui/).
+
+## Requirements
+
+1. SilverStripe installed and set up on your local environment
+2. [Node](https://nodejs.org)
+3. [NPM](https://www.npmjs.com)
 
 ## Installation
 
-After cloning the repository, install dependencies:
-```sh
-cd <project folder>/material-ui/examples/browserify-gulp-example
-npm install
-```
+Clone this repo into your themes folder.
+
+Traverse into your theme folder and install dependencies with `npm install`
+(or [`yarn install`](https://yarnpkg.com/) for ultra fast install)
+
+Then, enter your local server domain name in your [browserSync](http://www.browsersync.io/) config,
+which is in the `gulp/config.js` file, `browserSync.proxy` (change `project.vagrant`).
 
 Now you can run your local server:
 ```sh
@@ -26,10 +35,6 @@ It also will bundle the code into one file in an efficient way to not repeat dep
 ### [browserSync](http://www.browsersync.io/)
 
 When developing and testing the website, browserSync is a powerful tool that will rebuild and refresh the webpage so you can see the changes you make as you are working.
-
-### markup
-
-Copies all of the files from /src/www to the build folder.
 
 ### [gulp_starter](https://github.com/greypants/gulp-starter)
 
