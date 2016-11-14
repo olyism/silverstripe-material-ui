@@ -5,13 +5,13 @@ This is a boilerplate [SilverStripe](http://www.silverstripe.org) theme for proj
 
 ## Requirements
 
-1. SilverStripe installed and set up on your local environment
+1. SilverStripe 3.x installed and set up on your local environment
 2. [Node](https://nodejs.org)
 3. [NPM](https://www.npmjs.com)
 
 ## Installation
 
-Clone this repo into your themes folder.
+Run `composer require silverstripe-material-ui`
 
 Traverse into your theme folder and install dependencies with `npm install`
 (or [`yarn install`](https://yarnpkg.com/) for ultra fast install)
