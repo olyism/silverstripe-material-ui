@@ -1,0 +1,17 @@
+{
+	"name": "suhongyang/silverstripe-material-ui",
+	"description": "SilverStripe theme with Material-UI boilerplate",
+	"type": "silverstripe-theme",
+	"keywords": ["silverstripe", "material-ui", "reactjs"],
+	"license": "MIT",
+	"authors": [
+		{"name": "Oly Su", "email": "hello@oly.im"}
+	],
+	"support": {
+		"issues": "https://github.com/suhongyang/silverstripe-material-ui"
+	},
+	"require": {
+		"silverstripe/cms": "~3.1",
+		"silverstripe/framework": "~3.1"
+	}
+}

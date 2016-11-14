@@ -62,7 +62,7 @@ it. We use this example to construct our own project.
 ## Adding ss-material-ui to an existing theme as a new pagetype
 
 Clone this repo as a sub-directory under your existing theme 
-(e.g. `/themes/your-theme/ss-material-ui`).
+(e.g. `/themes/your-theme/material-ui`).
 
 Create a new pagetype under `mysite`, e.g. `MaterialUIPage`, you may want to clear all css and js 
 requirements with `Requirements::clear()` if you're extending `Page`.
@@ -71,8 +71,12 @@ Rename the root and Layout `Page.ss` template files to match your new pagetype
 (e.g. `MaterialUIPage.ss`) and copy into the respective location.
 
 Update the css and js links in the `Head.ss` and `Tail.ss` partials to include the subdirectory
-(e.g. `<script src="{$ThemeDir}/ss-material-ui/dist/App.js"></script>`)
+(e.g. `<script src="{$ThemeDir}/material-ui/dist/App.js"></script>`)
 
 You may want to make further tweaks to `MaterialUIPage.ss` to match your existing theme. 
 For example, you may want to omit the `Head.ss` and `Tail.ss` partials and use `Requirements`. 
 As long as the app's scripts are loaded in the `Tail.ss` partial the app should run.
+
+## Issues
+
+Please kindly raise any issues on [GitHub](https://github.com/suhongyang/material-ui/issues).
