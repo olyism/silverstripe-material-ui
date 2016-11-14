@@ -8,8 +8,8 @@ $MetaTags(false)
 
 <%-- Use minimum-scale=1 to enable GPU rasterization --%>
 <meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+	name="viewport"
+	content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
 >
 
 <link href="{$ThemeDir}/dist/main.css" rel="stylesheet">
