@@ -11,7 +11,7 @@ This is a boilerplate [SilverStripe](http://www.silverstripe.org) theme for proj
 
 ## Installation
 
-Run `composer require silverstripe-material-ui`
+Run `composer require suhongyang/silverstripe-material-ui`
 
 Traverse into your theme folder and install dependencies with `npm install`
 (or [`yarn install`](https://yarnpkg.com/) for ultra fast install)
